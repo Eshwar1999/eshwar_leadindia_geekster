@@ -1,0 +1,168 @@
+//q1
+
+   public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+Scanner scan=new Scanner(System.in);
+        int radius=scan.nextInt();
+        int area=((22*radius*radius)/7)/4;
+        System.out.println(area);
+    }
+}
+
+//q2
+  
+  public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scan=new Scanner(System.in);
+        double h=scan.nextDouble();
+        double b=scan.nextDouble();
+        double area=(h*b/2);
+        System.out.println(area);
+        
+    }
+}
+
+//q3
+
+   public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+    if(a<=1000)
+    {
+        System.out.println("false");
+    }   
+        else{
+            System.out.println("true");
+        }
+    }
+   //q5
+
+       public class Main {
+    public static void main(String[] args) {
+        int x = 7+3+4;
+ int y = 12 + 5 + 8;
+ int z= 13/5 + 18/8;
+ double a= 12 + 5.0 + 2.76;
+ double b= 12/3 + 13/2;
+ double c=12/3 + 13.0/2;
+ double d=14/2 + 15.0/4;
+ double e= 13/2 % 5/3;
+ double f= 17.0/2 % 16.0/4;
+        System.out.println(x);-14
+        System.out.println(y);-25
+        System.out.println(z);-4
+        System.out.println(a);-19.7599999998
+        System.out.println(b);-10.0
+        System.out.println(c);-10.5
+        System.out.println(d);-10.75
+        System.out.println(e);-0.0
+        System.out.println(f);-2.125
+    }
+}
+  //q6
+
+      public class Main {
+    public static void main(String[] args) {
+        boolean x = 3 > 2;
+ boolean y = 3 >= 3;
+ boolean z = 4 + 3 > 9;
+ boolean a = 10 + 8 > 10;
+ boolean b = 12 != 10;
+ boolean c = 13 == 13;
+ boolean d = 14 != 14;
+ boolean e = 20 == 5*4;
+ boolean f = 30 != 3+4-10;
+ boolean g = 20 == 41/2;
+        System.out.println(x);-true
+        System.out.println(y);-true
+        System.out.println(z);-false
+        System.out.println(a);-true
+        System.out.println(b);-true
+        System.out.println(c);-true
+        System.out.println(d);-false
+        System.out.println(e);-true
+        System.out.println(f);-true
+        System.out.println(g);-true
+    }
+}
+   //q7
+  
+      public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        double a=scan.nextDouble();
+        double b=scan.nextDouble();
+        double c=scan.nextDouble();
+        double d=scan.nextDouble();
+        double e=scan.nextDouble();
+        double total=a+b+c+d+e;
+        double pre=total/500*100;
+        System.out.println(total);
+        System.out.println(pre);
+        
+    }
+}
+
+   //q8
+  
+      public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        int b=scan.nextInt();
+        int c=scan.nextInt();
+        int d=scan.nextInt();
+        int total= a*b*c*d;
+        if(total>1000)
+        {
+        System.out.println("true");
+        }
+        else{
+            System.out.println("false");
+        }
+    }
+}
+   //q9
+   
+      ublic class Solution {
+
+    public static void main(String[] args) {
+       Scanner scan=new Scanner (System.in);
+        int a=scan.nextInt();
+        int b=scan.nextInt();
+        if(a>b)
+        {
+            System.out.println(a);
+         }
+        else{
+            System.out.println(b);
+        }
+}
+}
+
+   //q10
+
+       public class Main {
+    public static void main(String[] args) {
+  Scanner scan=new Scanner(System.in);
+        int a = scan.nextInt();
+        if(a%7==0)
+        {
+            System.out.println("divisible");
+        }
+        else{
+            System.out.println("not divisible");
+        }
+    }
+}
+
+   //

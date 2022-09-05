@@ -1,0 +1,94 @@
+        //Q1
+        public class main{
+
+        System.out.println("Hello World. I am here");
+        }
+        
+        //Q2
+        public class main{
+        System.out.println("Hello");
+        System.out.println("World.");
+        System.out.println("I");
+        System.out.println("am");
+        System.out.println("here");
+        }
+        //Q3
+        public class main{
+        System.out.println("*****");
+         }
+        //Q4
+        public class main{
+        System.out.println("*****");
+        System.out.println("*****");                  
+        System.out.println("*****");   
+         }
+        //Q5
+        public class main{
+        System.out.println("*****");
+        System.out.println("*");  
+        System.out.println("*");  
+        System.out.println("*");  
+        System.out.println("*****");   
+        }
+        //Q6
+        public class main{
+        System.out.println(10+20);
+        System.out.println(10*20*30);
+        System.out.println(40-20);
+        }
+        //Q7
+        public class main{
+        System.out.println(20+30+50);
+        System.out.println(20*30*50);
+        }  
+        //Q8
+        public class main{
+        System.out.println(25/10);
+        }
+        //Q9
+        public class main{
+        System.out.println(438%9);
+        }
+        //Q10
+        public class main{
+        int marks = 4596;
+        System.out.println(marks);
+        int cheating = 10;
+        System.out.println(cheating);
+         }
+        //Q11
+        public class main{
+        int xx = 100;
+        System.out.println(xx);
+         }
+        //Q12 
+        public class main{
+        int yy = 235;
+        System.out.println(yy+10);
+        }
+        //Q13
+        public class main{
+        int x = 165;
+        int y = 84;
+        System.out.println(x+y);
+        System.out.println(x-y);
+        System.out.println(x*y);
+        System.out.println(x/y);
+        }
+        //Q14
+        public class main{
+        int a = 20;
+        int b = 30;
+        int c = 40;
+        System.out.println(a+b+c);
+        }
+        //Q15
+        public class main{
+        int num = 45983;
+        System.out.println(num%10);
+        }
+        //Q16
+        public class main{
+        int num = 45983;
+        System.out.println(num/10);
+        }
