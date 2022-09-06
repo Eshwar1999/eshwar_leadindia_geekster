@@ -1,0 +1,124 @@
+//q1
+  
+   public class Solution {
+
+    public static void main(String[] args) {
+       Scanner scan=new Scanner (System.in);
+        int a=scan.nextInt();
+        int b=scan.nextInt();
+        if(a>b)
+        {
+            System.out.println(a);
+         }
+        else{
+            System.out.println(b);
+        }
+}
+}
+
+//q2
+
+    public class Solution {
+
+    public static void main(String[] args) {
+    Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        if(a%2==0)
+        {
+            System.out.println("Even");
+        }
+        else{
+            System.out.println("Odd");
+        }
+    }
+}
+
+//q3
+ 
+  public class Solution {
+
+    public static void main(String[] args) {
+       Scanner scan=new Scanner(System.in);
+        int a =scan.nextInt();
+        if(a>=500000)
+        {
+            System.out.println("Tax to be paid ");
+        }
+        else{
+            System.out.println("No tax to be paid");
+        }
+    }
+}
+
+//q4
+  
+   public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        if(a<33)
+        {
+       int  b=a+4;
+            System.out.println(b);
+        }
+        else{
+         System.out.println(a);   
+        }
+        
+    }
+}
+
+//q5
+
+
+  public class Solution {
+
+    public static void main(String[] args) {
+    Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        if(a>=70)
+        {
+            System.out.println("Super Senior Citizen");
+        }
+         else if(a<70&&a>=59)
+         {
+             System.out.println("Senior Citizen");
+         }           
+        else if(a>=18&&a<59){
+            System.out.println("Adult");
+        }
+        else if(a>1&&a<18){
+            System.out.println("Underage");
+        }
+        else {
+            System.out.println("New Born");
+        }
+            
+    }
+}
+
+ //q6
+
+  public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        if(a>60)
+        {
+           int c=b+1000;
+           System.out.println(c);            
+        }
+        else if (a>40&&a<=60)
+        {
+            int c=b+500;
+            System.out.println(c);
+        }
+        else if(a<=40)
+        {
+            System.out.println(b);
+        }
+    }
+}
